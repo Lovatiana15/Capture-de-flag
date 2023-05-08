@@ -1,0 +1,8 @@
+Twitter Authentification:
+ - Tout d'abord, il faut télécharger le fichier.pcap
+ - Ensuite, lancer ce fichier sur wirshark
+ - Wireshark affichera la capture de paquets sous forme de liste, avec des informations détaillées sur chaque paquet
+ - utiliser des filtres d'affichage pour filtrer les paquets HTTP
+ - En cliquant au dessus du paquet HTPP, en bas il y a quelques informations necessaire
+ - Cliquer au dessus de 'Hypertext transfert protocol'
+ - Le reponse exacte pour cette challenge est dedans
