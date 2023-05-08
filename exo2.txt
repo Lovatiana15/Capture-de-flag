@@ -1,0 +1,6 @@
+TELNET Authentification
+ - Tout d'abord, il faut télécharger le fichier.pcap
+ - Ensuite, lancer ce fichier sur wirshark
+ - Wireshark affichera la capture de paquets sous forme de liste, avec des informations détaillées sur chaque paquet.
+ - utiliser des filtres d'affichage pour filtrer les paquets TELNET  en fonction de leurs propriétés et rechercher les paquets contenant des informations d'authentification(user et mdp)
+ - Enfin, on peut examiner le paquet TELNET pour voir la reponse necessaire pour terminer ce challenge
