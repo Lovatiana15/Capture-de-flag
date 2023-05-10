@@ -1,0 +1,15 @@
+ETHERNET Trame
+- Dans cet challenge, on obtient un fichier hexadecimal
+- j'ai converti ce fichier en fichier.pcap pour que je puisse trouver la reponse necessaire:
+    ==> Pour le convertir:
+      - Placez le flux hexadécimal dans un fichier.txt
+      - acceder dans le dossier contenant le fichier.txt via terminal
+      - Convertissez le fichier texte en un fichier binaire en utilisant la commande  xxd -r -p nom_fichier.txt nom_fichier.txt.bin
+      - Utilisez od et text2pcap pour convertir le fichier binaire en un fichier pcap avec la commande od -Ax -tx1 -v nom_fichier.bin | text2pcap - 		nom_fichier.pcap.
+      - et j'ai obtenu un fichier.pcap
+ - Ensuite, lancer ce fichier sur wirshark
+ - Wireshark affichera la capture de paquets sous forme de liste, avec des informations détaillées sur chaque paquet
+ - utiliser des filtres d'affichage pour filtrer les paquets HTTP
+ - En cliquant au dessus du paquet HTPP, en bas il y a quelques informations necessaire
+ - Cliquer au dessus de 'Hypertext transfert protocol'
+ - Le reponse exacte pour cette challenge est dedans
